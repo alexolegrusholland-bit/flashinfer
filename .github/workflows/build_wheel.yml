@@ -21,7 +21,7 @@ jobs:
 
       # 3. Set up CUDA 12.8 (This is the most important step)
       - name: Set up CUDA
-        uses: nv-actions/setup-cuda@v1
+        uses: uses:NVIDIA/setup-cuda-action@v1
         with:
           cuda-version: '12.8'
 
